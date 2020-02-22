@@ -1,0 +1,167 @@
+/* MODULE CALLME - заказ звонка #callme_ - префикс модуля */
+#callme_module{}
+#callme_module .button_wrap{text-align: right;}
+#callme_module .button_wrap .phone{
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
+#callme_module .button_wrap .but{}
+
+#callme_module .but_callme{
+    color: #FFFFFF;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 #5F9218;
+    text-transform: uppercase;
+    background: url("../images/butt_green.png") no-repeat scroll right -35px transparent;
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    margin: 0;
+    padding-right: 17px;
+}
+
+#callme_module .but_callme span{
+    background: url("../images/butt_green.png") no-repeat scroll left top transparent;
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 17px;
+    padding-right: 0;
+    text-align: center;
+    text-shadow: 1px 1px #444444;
+}
+
+#callme_popup .popup_header {
+    margin: 15px 0 0;
+}
+
+#callme_popup .popup_header h3 {
+    color: #000000;
+    font-size: 26px;
+    margin: 0;
+    padding: 0 0 10px 40px;
+}
+
+#callme_popup .popup_fields {
+    padding: 0 40px;
+}
+
+#callme_popup #position {}
+#callme_popup #position .title {font-size: 16px;}
+#callme_popup #position .title a {}
+
+#callme_popup #form_error{
+    display: block;
+    height: 20px;
+    padding: 0 0 8px;
+    text-align: center;
+}
+
+#callme_popup #form_error .mess{
+    color: red;
+    font-family: 'Trebuchet MS', sans-serif;
+    display: none;
+}
+
+#callme_popup .callstar {
+    color: red;
+    font-family: Tahoma;
+    font-size: 13px;
+    font-style: normal;
+    padding: 0 3px;
+}
+
+#callme_popup .callfield {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0;
+}
+
+#callme_popup .callvalue {
+    border: 1px solid #E4E4E4;
+    color: #363636;
+    float: left;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    height: 28px;
+    line-height: 26px;
+    margin-left: 0;
+    margin-top: -1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 250px;
+}
+
+#callme_popup .calltextarea {
+    border: 1px solid #E4E4E4;
+    color: #363636;
+    float: left;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+    height: 90px;
+    line-height: 18px;
+    margin-left: 0;
+    padding: 5px 10px;
+    width: 250px;
+}
+
+#callme_popup .control{}
+#callme_popup .but_sendform{
+    color: #FFFFFF;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 1px 1px 0 #990000;
+    text-transform: uppercase;
+    background: url("../images/butt_red.png") no-repeat scroll right -35px transparent;
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    margin: 0;
+    padding-right: 17px;
+    width:250px;
+}
+
+#callme_popup .but_sendform span {
+    background: url("../images/butt_red.png") no-repeat scroll left top transparent;
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 17px;
+    padding-right: 0;
+    text-align: center;
+    text-shadow: 1px 1px #444444;
+}
+
+#callme_popup .callmehint {
+    color: #4C4C4C;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    padding: 10px 0 0;
+}
+
+#sendresult{
+    height: 350px;
+    width: 600px;
+}
+
+#sendresult .alert-success {
+    color: #000000;
+    font-size: 30px;
+    font-weight: normal;
+    height: 250px;
+    line-height: 1.3;
+    padding: 100px 0 0;
+    text-align: center;
+}
+
+#sendresult .alert-error{color:red;}
+/* END module callme */

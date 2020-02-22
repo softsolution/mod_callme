@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<backend>
+    <module>
+        <id>mod_callme</id>
+        <title>Модуль Заказать звонок</title>
+    </module>
+    <params>
+        <param type="string" name="title" title="Заголовок модуля" hint="Будет использован в названии кнопки, всплывающей форме, теме письма" default="Заказать звонок" />
+        <param type="string" name="emails" title="Почта для уведомлений" hint="Можно использовать несколько адресов, каждый через запятую" default="sample@mail.ru" />
+        <param type="number" name="width" title="Ширина всплывающией формы" units="px" default="500" />
+        <param type="number" name="height" title="Высота всплывающией формы" units="px" default="430" />
+        <param type="string" name="phone" title="Телефон" hint="Номер телефона в заголовке модуля" default="0 (000) 000-00-00" />
+        <param type="flag" name="show_phone_block" title="Показывать номер телефона" default="on" />
+        <param type="flag" name="show_button_block" title="Показывать кнопку заказа" default="on" />
+        <param type="flag" name="showname" title="Поле Ваше имя" hint="Включение/выключение поля Ваше имя во всплывающей форме" default="on" />
+        <param type="flag" name="showphone" title="Поле Tелефон" hint="Включение/выключение поля Телефон во всплывающей форме" default="on" />
+        <param type="flag" name="phone_mustbe" title="Поле Телефон обязательно для заполнения" hint="Поле Телефон во всплывающей форме будет обязательным для заполнения" default="on" />
+        <param type="flag" name="showemail" title="Поле E-mail" hint="Включение/выключение поля E-mail во всплывающей форме" default="on" />
+        <param type="flag" name="email_mustbe" title="Поле E-mail обязательно для заполнения" hint="Поле E-mail во всплывающей форме будет обязательным для заполнения" default="off" />
+        <param type="flag" name="showcalltime" title="Поле Время звонка" default="on" />
+        <param type="flag" name="showcomment" title="Поле Комментарий" default="on" />
+        <param type="string" name="commenttext" title="Текст Поля Комментарий по умолчанию" />
+        <param type="string" name="prefix" title="Префикс модуля" hint="Необходим для уникализации кнопок и телефонного номера, если вы будете использовать несколько копий модуля" default="callme_" />
+        <param type="flag" name="connectjs" title="Подключить js и css всплывающего окна в этой копии модуля" hint="Если модуль используется несколько раз на странице, рекомендуется подключать плагин fancybox в одном из них" default="on" />
+        <param type="flag" name="generateform" title="Генерировать всплывающую форму" hint="Этот копия модуля будет создавать скрытую форму всплывающую форму, если модуль используется несколько раз - вкючите данную опцию в одном из них" default="on" />
+        <param type="flag" name="redirect" title="Редирект после отравки формы" hint="Если включено, после отправки формы будет редирект на указанную ниже страницу" default="off" />
+        <param type="string" name="target" title="url редиректа" hint="Для внутренних страниц начиная с / , для внешних http:" />
+    </params>
+</backend>
